@@ -1,0 +1,36 @@
+[01-Apr-2025 01:19:10 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:19:10 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:19:10 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:19:10 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:23:31 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:23:31 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:23:31 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:23:31 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:24:00 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:24:00 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:24:00 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:24:00 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:24:52 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:24:52 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:24:52 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:24:52 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:26:34 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:26:34 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 33
+[01-Apr-2025 01:26:34 Europe/Berlin] PHP Notice:  Undefined variable: conn in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:26:34 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\xampp\htdocs\conn\loadPosts.php on line 36
+[01-Apr-2025 01:51:07 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Erreur SQL: Unknown column 'user' in 'field list' in C:\xampp\htdocs\conn\insertPost.php:82
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\conn\insertPost.php on line 82
+[01-Apr-2025 01:51:25 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Erreur SQL: Unknown column 'user' in 'field list' in C:\xampp\htdocs\conn\insertPost.php:82
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\conn\insertPost.php on line 82
+[01-Apr-2025 01:52:57 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Erreur SQL: Unknown column 'user' in 'field list' in C:\xampp\htdocs\conn\insertPost.php:82
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\conn\insertPost.php on line 82
+[01-Apr-2025 02:15:29 Europe/Berlin] Erreur insertPost: Erreur de préparation de la requête
+[01-Apr-2025 02:45:05 Europe/Berlin] Erreur insertPost: Erreur lors de l'enregistrement de l'image
+[01-Apr-2025 02:47:10 Europe/Berlin] Erreur insertPost: Le post doit contenir du texte ou une image
+[01-Apr-2025 02:49:20 Europe/Berlin] Erreur insertPost: Erreur de préparation: Unknown column 'user_id' in 'field list'
