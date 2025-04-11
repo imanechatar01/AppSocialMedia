@@ -146,19 +146,18 @@ $formatted_date = !empty($data['date_naissance']) ? date('Y-m-d', strtotime($dat
             <img src="images/userImg_<?php echo $_SESSION['id']; ?>/<?php echo $_SESSION['photo']; ?>" alt="User">
             <span class="user-name"><?php echo $_SESSION['prenom'] . ' ' . $_SESSION['nom']; ?></span>
         </div>
-        <a href="logout.php" class="logout">Déconnexion</a>
+        <a href="logout.php" class="logout">Logout</a>
     </div>
 
     <!-- Contenu principal -->
-    <div class="container">
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <a href="espaceEtudiant.php"><i class="fas fa-home"></i> Accueil</a>
+    <div class="sidebar">
+        <a href="sendPostsForm.php"><i class="fas fa-home"></i> Accueil</a>
             <a href="searchFriend.php"><i class="fas fa-search"></i> Chercher</a>
             <a href="receivedInvitation.php"><i class="fas fa-user-plus"></i> Invitations</a>
             <a href="messagesSection.php"><i class="fas fa-envelope"></i> Messages</a>
             <a href="amiesList.php"><i class="fas fa-users"></i> Amis</a>
             <a href="userProfil.php"><i class="fas fa-user"></i> Profil</a>
+            <a href="espaceEtudiant.php"><i class="fas fa-user-plus"></i> Envoyer Invitations</a>
         </div>
 
         <!-- Main Content -->

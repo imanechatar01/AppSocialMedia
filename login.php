@@ -17,19 +17,22 @@ if(isset($_POST["email"]) ) {
        $_SESSION['photo']=$data['photo'];
        $_SESSION['id']=$data['id'];
        if($data['role']=='prof'){
-        header("location:espaceProfesseur.php");
+        header("location:sendPostsForm.php");
        }
        else{
-        header("location:espaceEtudiant.php");
+        header("location:sendPostsForm.php");
        }
     }else{
-        echo"bruuuuuuuuuuuuuh" ;
+        echo "<script type='text/javascript'>
+        alert('Email ou mot de passe incorrect');
+        window.location.href = 'loginForm.php'; // Redirection vers la page de connexion
+      </script>";
     }
 
 }  else{
-    echo "fuuuuuuck";
+    header("location:loginForm.php");
+    
 }
-
 
 
    

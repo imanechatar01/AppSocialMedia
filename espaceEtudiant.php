@@ -31,13 +31,13 @@ include("conn.php");
     <div class="container">
         <!-- Sidebar -->
         <div class="sidebar">
-        <a href="espaceEtudiant.php"><i class="fas fa-home"></i> Accueil</a>
+        <a href="sendPostsForm.php"><i class="fas fa-home"></i> Accueil</a>
             <a href="searchFriend.php"><i class="fas fa-search"></i> Chercher</a>
             <a href="receivedInvitation.php"><i class="fas fa-user-plus"></i> Invitations</a>
             <a href="messagesSection.php"><i class="fas fa-envelope"></i> Messages</a>
             <a href="amiesList.php"><i class="fas fa-users"></i> Amis</a>
             <a href="userProfil.php"><i class="fas fa-user"></i> Profil</a>
-            <a href="sendPostsForm.php"><i class="fas fa-user"></i> posts</a>
+            <a href="espaceEtudiant.php"><i class="fas fa-user-plus"></i> Envoyer Invitations</a>
         </div>
 
         <!-- Main Content -->
